@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4781AD818201A4500E75842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4781AD718201A4500E75842 /* Foundation.framework */; };
+		F4781ADD18201A4600E75842 /* NTMonthYearPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */; };
+		F4781ADF18201A4600E75842 /* NTMonthYearPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F4781ADE18201A4600E75842 /* NTMonthYearPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F4781AD218201A4500E75842 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F4781ADD18201A4600E75842 /* NTMonthYearPicker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F4781AD418201A4500E75842 /* libNTMonthYearPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTMonthYearPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4781AD718201A4500E75842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4781ADB18201A4600E75842 /* NTMonthYearPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTMonthYearPicker-Prefix.pch"; sourceTree = "<group>"; };
+		F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMonthYearPicker.h; sourceTree = "<group>"; };
+		F4781ADE18201A4600E75842 /* NTMonthYearPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTMonthYearPicker.m; sourceTree = "<group>"; };
+		F4781AE818201A4600E75842 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4781AD118201A4500E75842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4781AD818201A4500E75842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4781ACB18201A4500E75842 = {
+			isa = PBXGroup;
+			children = (
+				F4781AD918201A4500E75842 /* NTMonthYearPicker */,
+				F4781AD618201A4500E75842 /* Frameworks */,
+				F4781AD518201A4500E75842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4781AD518201A4500E75842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4781AD418201A4500E75842 /* libNTMonthYearPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4781AD618201A4500E75842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4781AD718201A4500E75842 /* Foundation.framework */,
+				F4781AE818201A4600E75842 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4781AD918201A4500E75842 /* NTMonthYearPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */,
+				F4781ADE18201A4600E75842 /* NTMonthYearPicker.m */,
+				F4781ADA18201A4600E75842 /* Supporting Files */,
+			);
+			path = NTMonthYearPicker;
+			sourceTree = "<group>";
+		};
+		F4781ADA18201A4600E75842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4781ADB18201A4600E75842 /* NTMonthYearPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4781AD318201A4500E75842 /* NTMonthYearPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4781AF718201A4600E75842 /* Build configuration list for PBXNativeTarget "NTMonthYearPicker" */;
+			buildPhases = (
+				F4781AD018201A4500E75842 /* Sources */,
+				F4781AD118201A4500E75842 /* Frameworks */,
+				F4781AD218201A4500E75842 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTMonthYearPicker;
+			productName = NTMonthYearPicker;
+			productReference = F4781AD418201A4500E75842 /* libNTMonthYearPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4781ACC18201A4500E75842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Arun Nair";
+			};
+			buildConfigurationList = F4781ACF18201A4500E75842 /* Build configuration list for PBXProject "NTMonthYearPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4781ACB18201A4500E75842;
+			productRefGroup = F4781AD518201A4500E75842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4781AD318201A4500E75842 /* NTMonthYearPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4781AD018201A4500E75842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4781ADF18201A4600E75842 /* NTMonthYearPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4781AF518201A4600E75842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4781AF618201A4600E75842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4781AF818201A4600E75842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NTMonthYearPicker.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTMonthYearPicker/NTMonthYearPicker-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NTMonthYearPicker;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F4781AF918201A4600E75842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NTMonthYearPicker.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTMonthYearPicker/NTMonthYearPicker-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NTMonthYearPicker;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4781ACF18201A4500E75842 /* Build configuration list for PBXProject "NTMonthYearPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4781AF518201A4600E75842 /* Debug */,
+				F4781AF618201A4600E75842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4781AF718201A4600E75842 /* Build configuration list for PBXNativeTarget "NTMonthYearPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4781AF818201A4600E75842 /* Debug */,
+				F4781AF918201A4600E75842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4781ACC18201A4500E75842 /* Project object */;
+}
