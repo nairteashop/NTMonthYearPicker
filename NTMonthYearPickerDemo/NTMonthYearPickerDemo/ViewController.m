@@ -84,8 +84,6 @@ UIPopoverController *popupCtrl;
                                      animated:YES];
         }
     }
-
-    [self viewDidAppear:TRUE];
 }
 
 - (IBAction)pickerModeChanged {
