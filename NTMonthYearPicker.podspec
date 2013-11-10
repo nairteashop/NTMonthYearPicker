@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'NTMonthYearPicker'
-  s.version  = '1.0'
+  s.version  = '1.0.0'
 
   s.summary  = 'A simple month / year picker component for iOS.'
   s.description = 'NTMonthYearPicker is a simple month / year picker component for use in iOS applications.'
