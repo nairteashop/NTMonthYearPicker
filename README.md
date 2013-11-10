@@ -6,8 +6,12 @@ NTMonthYearPicker is a simple month / year picker component for use in iOS appli
 
 ## Installation
 
+### Manual installation
 - Clone or download the repository
 - Drag the `NTMonthYearPicker/NTMonthYearPicker` folder into your project.
+
+### Using CocoaPods
+- Add `pod 'NTMonthYearPicker'` to your Podfile
 
 ## Usage
 
