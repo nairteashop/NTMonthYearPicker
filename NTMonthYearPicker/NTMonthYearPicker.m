@@ -36,7 +36,18 @@
 
 @end
 
-@implementation NTMonthYearPickerView
+@implementation NTMonthYearPickerView {
+    // Picker data (list of months and years)
+    NSArray *_months;
+    NSArray *_years;
+
+    // Cached min/max year/month values
+    // We do this to avoid expensive NSDateComponents-based date math in pickerView:viewForRow
+    NSInteger _minimumYear;
+    NSInteger _maximumYear;
+    NSInteger _minimumMonth;
+    NSInteger _maximumMonth;
+}
 
 @synthesize datePickerMode;
 @synthesize locale = _locale;
@@ -45,17 +56,6 @@
 @synthesize minimumDate;
 @synthesize maximumDate;
 @synthesize pickerDelegate;
-
-// Picker data (list of months and years)
-NSArray *_months;
-NSArray *_years;
-
-// Cached min/max year/month values
-// We do this to avoid expensive NSDateComponents-based date math in pickerView:viewForRow
-NSInteger _minimumYear = -1;
-NSInteger _maximumYear = -1;
-NSInteger _minimumMonth = -1;
-NSInteger _maximumMonth = -1;
 
 // Default min/max year values used if minimumDate/maximumDate is not set
 // These values match that of UIDatePicker
@@ -85,11 +85,21 @@ const NSInteger kMaxYear = 10000;
     self.delegate = self;
     self.showsSelectionIndicator = YES;
 
+    // Initialize default cached values
+    [self initCachedValues];
+
     // Initialize picker data
     [self initPickerData];
 
     // Set default date to today
     _date = [NSDate date];
+}
+
+- (void)initCachedValues {
+    _minimumYear = -1;
+    _maximumYear = -1;
+    _minimumMonth = -1;
+    _maximumMonth = -1;
 }
 
 - (void)initPickerData {
@@ -348,7 +358,9 @@ numberOfRowsInComponent:(NSInteger)component {
 @interface NTMonthYearPicker (Delegate) <NTMonthYearPickerViewDelegate>
 @end
 
-@implementation NTMonthYearPicker
+@implementation NTMonthYearPicker {
+    NTMonthYearPickerView *_pickerView;
+}
 
 @synthesize datePickerMode;
 @synthesize locale;
@@ -356,8 +368,6 @@ numberOfRowsInComponent:(NSInteger)component {
 @synthesize date;
 @synthesize minimumDate;
 @synthesize maximumDate;
-
-NTMonthYearPickerView *_pickerView;
 
 #pragma mark - Initialization
 
