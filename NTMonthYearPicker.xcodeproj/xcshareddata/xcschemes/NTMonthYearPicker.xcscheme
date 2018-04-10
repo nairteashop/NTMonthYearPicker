@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E7FAB811207C15BE00C13C70"
-               BuildableName = "NTMonthYearPicker.framework"
+               BlueprintIdentifier = "F4781AD318201A4500E75842"
+               BuildableName = "libNTMonthYearPicker.a"
                BlueprintName = "NTMonthYearPicker"
                ReferencedContainer = "container:NTMonthYearPicker.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7FAB811207C15BE00C13C70"
-            BuildableName = "NTMonthYearPicker.framework"
+            BlueprintIdentifier = "F4781AD318201A4500E75842"
+            BuildableName = "libNTMonthYearPicker.a"
             BlueprintName = "NTMonthYearPicker"
             ReferencedContainer = "container:NTMonthYearPicker.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E7FAB811207C15BE00C13C70"
-            BuildableName = "NTMonthYearPicker.framework"
+            BlueprintIdentifier = "F4781AD318201A4500E75842"
+            BuildableName = "libNTMonthYearPicker.a"
             BlueprintName = "NTMonthYearPicker"
             ReferencedContainer = "container:NTMonthYearPicker.xcodeproj">
          </BuildableReference>
