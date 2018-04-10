@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7EB81F4207D051E0007FFBF /* NTMonthYearPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */; };
+		E7EB81F4207D051E0007FFBF /* NTMonthYearPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7EB81F5207D05200007FFBF /* NTMonthYearPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F4781ADE18201A4600E75842 /* NTMonthYearPicker.m */; };
 		F4781AD818201A4500E75842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4781AD718201A4500E75842 /* Foundation.framework */; };
 		F4781ADD18201A4600E75842 /* NTMonthYearPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4781ADC18201A4600E75842 /* NTMonthYearPicker.h */; };
@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		E7EB81EC207D05070007FFBF /* NTMonthYearPickerFMWK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NTMonthYearPickerFMWK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EB81EF207D05070007FFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7EB821D207D0C140007FFBF /* NTMonthYearPickerFMWK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTMonthYearPickerFMWK.h; sourceTree = "<group>"; };
 		F4781AD418201A4500E75842 /* libNTMonthYearPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNTMonthYearPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4781AD718201A4500E75842 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4781ADB18201A4600E75842 /* NTMonthYearPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTMonthYearPicker-Prefix.pch"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		E7EB81ED207D05070007FFBF /* NTMonthYearPickerFMWK */ = {
 			isa = PBXGroup;
 			children = (
+				E7EB821D207D0C140007FFBF /* NTMonthYearPickerFMWK.h */,
 				E7EB81EF207D05070007FFBF /* Info.plist */,
 			);
 			path = NTMonthYearPickerFMWK;
