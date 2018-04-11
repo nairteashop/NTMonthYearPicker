@@ -150,6 +150,7 @@ const NSInteger kMaxYear = 10000;
 
 - (void)setLocale:(NSLocale *)loc {
     _locale = loc;
+    [self initPickerData];
 }
 
 #pragma mark - Calendar
